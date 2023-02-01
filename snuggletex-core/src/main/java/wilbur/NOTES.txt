@@ -1,0 +1,19 @@
+Wilbur:
+
+* Very elaborate, mainly aimed at math translation to XML.
+* Problem with \ref command (not registered, marked as "text").
+* Does not nest commands properly
+* Quite a few dependencies!
+* Look at definitions in uk.ac.ed.ph.snuggletex.definitions.CorePackageDefinitions
+
+* see https://www2.ph.ed.ac.uk/snuggletex/documentation/overview-and-features.html
+* http://snuggletex.sourceforge.net/maven/xref/index.html
+
+API Docs: http://snuggletex.sourceforge.net/maven/apidocs/index.html
+
+Added missing '/src/main/resources/uk/ac/ed/ph/snuggletex/all-math-characters.txt' from Maven distribution
+
+*** Fazit: ***
+Forget Snuggletex. 
+Misses out on simple things, such as finding '\ref'.
+Appears too complex to fix.
